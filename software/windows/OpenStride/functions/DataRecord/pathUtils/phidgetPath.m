@@ -1,0 +1,1 @@
+function results = phidgetPath(app, filename), results = fullfile(app.currentFolder, 'phidget', filename); end

@@ -1,0 +1,10 @@
+[2026-02-17 15:39:44] [INFO] Calibration loaded: Offsets=[-5.234972303932584e-06, 8.582097446910112e-05, 7.314990100955055e-05, 0.00016357454319719102], Gains=[1, 1, 1, 1]
+[2026-02-17 15:39:44] [INFO] Auto-stop enabled after 300 seconds.
+[2026-02-17 15:39:45] [INFO] Channel 0 connected.
+[2026-02-17 15:39:45] [INFO] Channel 1 connected.
+[2026-02-17 15:39:46] [INFO] Channel 2 connected.
+[2026-02-17 15:39:46] [INFO] Channel 3 connected.
+[2026-02-17 15:44:46] [INFO] Auto-stop condition met.
+[2026-02-17 15:44:50] [INFO] Final data saved.
+[2026-02-17 15:44:52] [INFO] Final data saved.
+[2026-02-17 15:44:52] [INFO] Recording complete.

@@ -1,0 +1,22 @@
+{
+  "type": "record",
+  "output_file_name": "M_491446_Shaker_1L1R_17_02_2026",
+  "note": [
+    ""
+  ],
+  "output_folder": [
+    "F:\\Desktop\\ethovision vs new FPA"
+  ],
+  "auto_stop": {
+    "enabled": true,
+    "value": 5,
+    "unit": "minutes"
+  },
+  "discard": {
+    "enabled": false,
+    "value": 2,
+    "unit": "seconds"
+  },
+  "frequency": 125,
+  "animal": "Rat"
+}

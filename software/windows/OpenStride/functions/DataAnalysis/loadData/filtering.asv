@@ -1,0 +1,71 @@
+function result = filtering(path)
+    [~, ~, ext] = fileparts(path);
+    ext = lower(ext);
+
+    if ismember(ext, {'.xlsx', '.xls'})
+        tbl = readtable(path);
+        varNames = tbl.Properties.VariableNames;
+
+        firstCol = varNames{1};
+        xCol = varNames{contains(lower(varNames), 'x', 'IgnoreCase', true)};
+        yCol = varNames{contains(lower(varNames), 'y', 'IgnoreCase', true)};
+        result = tbl(:, {firstCol, xCol{1}, yCol{1}});
+        return;
+    end
+
+    fid = fopen(path, 'r', 'n', 'UTF-8');
+    if fid == -1
+        error('Unable to open file: %s', path);
+    end
+    content = fread(fid, '*char')';
+    fclose(fid);
+
+    if startsWith(content, char(65279))
+        content = content(2:end);
+    end
+
+    lines = splitlines(content);
+    delimiter = ',';
+
+    isNumeric = @(x) ~isempty(regexp(strtrim(x), '^[-+]?(?:\d+\.?\d*|\.\d+)([eE][-+]?\d+)?$', 'once'));
+
+    matchingRow = [];
+
+    for row = 1:numel(lines)-1
+        line1 = strtrim(lines{row});
+        line2 = strtrim(lines{row+1});
+        if isempty(line1) || isempty(line2)
+            continue;
+        end
+
+        elems1 = strsplit(line1, delimiter);
+        elems2 = strsplit(line2, delimiter);
+
+        if ~isempty(elems1) && strcmp(strtrim(elems1{1}), '0') && ...
+           ~isempty(elems2) && isNumeric(elems2{1})
+            matchingRow = row - 2;
+
+            if matchingRow < 0
+    matchingRow = 0;
+end
+            break;
+        end
+    end
+
+    if ~isempty(matchingRow)
+        tbl = readtable(path, 'HeaderLines', matchingRow, 'Delimiter', delimiter);
+        varNames = tbl.Properties.VariableNames;
+        % 自动寻找 x 和 y 列
+        firstCol = varNames{1};
+        xCol = varNames{contains(lower(varNames), 'x', 'IgnoreCase', true)};
+        yCol = varNames{contains(lower(varNames), 'y', 'IgnoreCase', true)};
+        if isempty(xCol) || isempty(yCol)
+            error('x or y column not found.');
+        end
+        result = tbl(:, {firstCol, xCol{1}, yCol{1}});
+    else
+        disp('File preview (first 10 lines):');
+        disp(lines(1:min(10, end)))
+        error('FeatureUnrecognized: No valid data start found in file:\n%s', path);
+    end
+end

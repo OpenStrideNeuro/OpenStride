@@ -1,0 +1,1 @@
+function result = tempPath(app, filename), result = fullfile(app.currentFolder, 'temp', filename); end

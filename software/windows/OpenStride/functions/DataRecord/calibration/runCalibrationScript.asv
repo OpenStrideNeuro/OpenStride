@@ -1,0 +1,85 @@
+function runCalibrationScript(app, event)
+    % === Check user confirmation ===
+    if ~strcmp(event.SelectedOption, 'Sure, start now!')
+        return;
+    end
+
+    % === Generate config file ===
+    generateConfigFile(app,'calibration');
+
+    % === Prepare log ===
+    log_filename = tempPath(app, 'phidget_log.jsonl');
+    if exist(log_filename, 'file')
+        delete(log_filename);
+    end
+
+    % === Path to your unified exe ===
+    exe_path = phidgetPath(app, 'phidget_launcher.exe');
+
+    if ~exist(exe_path, 'file')
+        app.TextUpdate.Text = {'Error1001: Unified exe is missing!'};
+        return;
+    end
+
+    %%
+    % === Launch exe (same for Windows/Linux/macOS if you want) ===
+    if app.OperatingSystemButtonGroup.SelectedObject == app.WindowsButton
+        system(['start /B "" "', exe_path, '"']);
+    elseif app.OperatingSystemButtonGroup.SelectedObject == app.LinuxmacOSButton
+        system(['nohup "', exe_path, '" > /dev/null 2>&1 &']);
+    end
+
+    % === Monitor log and update UI ===
+    timeout = 50; 
+    start_time = tic;
+
+    pause(0.1);
+    app.TextUpdate.Text = {'Program launched...'}; 
+    drawnow;
+
+    while toc(start_time) <= timeout
+        pause(0.1);
+
+        if ~exist(log_filename, 'file')
+            continue;
+        end
+
+        fid = fopen(log_filename, 'r'); 
+        if fid == -1
+            continue;
+        end
+        log_text = textscan(fid, '%s', 'Delimiter', '\n', 'Whitespace', ''); 
+        fclose(fid);
+        log_text = log_text{1};
+
+        messages = cell(1, length(log_text));
+        message_count = 0;
+
+        for i = 1:length(log_text)
+            try
+                log_entry = jsondecode(log_text{i});
+                if isfield(log_entry, 'message')
+                    message_count = message_count + 1;
+                    messages{message_count} = log_entry.message;
+                end
+            catch
+            end
+        end
+
+        if ~isempty(messages)
+            app.TextUpdate.Text = messages; 
+            drawnow;
+        end
+
+        if any(contains(messages, 'Phidget data acquisition completed.')) || ...
+           any(contains(messages, 'Record completed.')) || ...
+           any(contains(messages, 'ERROR'))
+            app.TextUpdate.Text = 'Program finished.'; 
+            break;
+        end
+    end
+
+    if toc(start_time) > timeout
+        app.TextUpdate.Text = 'Error1005_1: Timeout waiting for program to finish.';
+    end
+end

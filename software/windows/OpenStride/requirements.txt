@@ -1,0 +1,4 @@
+matplotlib==3.8.4
+matplotlib==3.8.0
+numpy==2.4.3
+phidget22==1.22.20250106
