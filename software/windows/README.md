@@ -275,7 +275,7 @@ You are now ready to launch OpenStride. See the **[Quick Start Guide](#)** for y
 | MATLAB licence error | Verify your MathWorks licence is active at [mathworks.com](https://www.mathworks.com) |
 | A required MATLAB toolbox is missing | Re-open Add-On Manager and search for the toolbox again |
 
-> 💬 If you continue to experience issues, please open an issue via **[Reporting Issues](#)** or reach out through **[Getting Assistance](#)**.
+> 💬 If you continue to experience issues, please get in contact with the OpenStride team.
 
 ---
 
