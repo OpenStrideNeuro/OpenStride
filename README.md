@@ -1,6 +1,9 @@
 # OpenStride 
 
-**This github is currently under construction. All necessary files to build and operate OpenStride are present, but the readme files will be updated in the immediate future. When readme edits are completed, this message will be removed. In the meantime, for any questions related to installation please email collin (dot) anderson (at) sydney (dot) edu (dot) au.**
+**This readme files for this github are currently under construction. All necessary files to build and operate OpenStride are present, but the readme files will be updated in the immediate future. When readme edits are completed, this message will be removed. In the meantime, for any questions related to installation please email collin (dot) anderson (at) sydney (dot) edu (dot) au.**
+
+
+
 
 Welcome to **OpenStride**, an open-source platform that integrates both **hardware and software** for rodent behaviour recording and analysis using a force-plate actometer system. **Please read the following to ensure smooth installation of OpenStride; otherwise, problems may ensue**. 
 
