@@ -59,7 +59,7 @@ function ThemChange(app, mode)
         app.GridLayout17.BackgroundColor = panelColor;
     end
 
-    % % 按钮颜色
+    % Button color
     if isprop(app, 'ModeSwitch')
         app.ModeSwitch.BackgroundColor = buttonColor;
         app.ModeSwitch.FontColor = fontColor;
@@ -70,7 +70,7 @@ function ThemChange(app, mode)
     %     app.StopButton.FontColor = fontColor;
     % end
     % 
-    % % 机器显示颜色（示例：用 patch 或 line）
+    % Machine display color (example: use patch or line)
     % if isprop(app, 'MachinePatch')
     %     app.MachinePatch.FaceColor = machineColor;
     % end

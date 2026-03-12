@@ -1,11 +1,12 @@
 from utils import log_message
-from Phidget22.Phidget import *
-from Phidget22.Devices.VoltageRatioInput import *
+from Phidget22.PhidgetException import PhidgetException
+from Phidget22.Devices.VoltageRatioInput import VoltageRatioInput
 import time
 import datetime
 import json
 import traceback
 import os
+import sys
 
 if getattr(sys, 'frozen', False):
     CURRENT_DIR = os.path.dirname(sys.executable)
@@ -101,7 +102,7 @@ def run_calibration():
         offsets = compute_averages(zero_data)
         log_message(f"Offsets computed: {offsets}")
 
-        # 这里取消 load 测量与 gain 计算，直接设定 gains = [1,1,1,1]
+        # Skip load measurement and gain calculation; use fixed gains = [1,1,1,1]
         gains = [1, 1, 1, 1]
 
         save_calibration(offsets, gains)

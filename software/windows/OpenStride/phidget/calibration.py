@@ -101,7 +101,7 @@ def run_calibration():
         offsets = compute_averages(zero_data)
         log_message(f"Offsets computed: {offsets}")
 
-        # 这里取消 load 测量与 gain 计算，直接设定 gains = [1,1,1,1]
+        # Skip load measurement and gain calculation; use fixed gains = [1,1,1,1]
         gains = [1, 1, 1, 1]
 
         save_calibration(offsets, gains)

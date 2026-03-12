@@ -40,7 +40,7 @@ if exist(log_filename, 'file')
 end
 
 % === Launch main.py ===
-system(['nohup python3 "', phidgetPath(app,'main.py'), '" > /dev/null 2>&1 &']);
+system(['nohup "', pythonExePath(app), '" "', phidgetPath(app,'main.py'), '" > /dev/null 2>&1 &']);
 
 % === Monitor log and update UI ===
 timeout = 300; % 5 minutes

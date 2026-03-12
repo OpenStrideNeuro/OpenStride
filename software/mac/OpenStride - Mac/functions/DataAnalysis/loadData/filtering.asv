@@ -55,7 +55,7 @@ end
     if ~isempty(matchingRow)
         tbl = readtable(path, 'HeaderLines', matchingRow, 'Delimiter', delimiter);
         varNames = tbl.Properties.VariableNames;
-        % 自动寻找 x 和 y 列
+        % Automatically find x and y columns
         firstCol = varNames{1};
         xCol = varNames{contains(lower(varNames), 'x', 'IgnoreCase', true)};
         yCol = varNames{contains(lower(varNames), 'y', 'IgnoreCase', true)};

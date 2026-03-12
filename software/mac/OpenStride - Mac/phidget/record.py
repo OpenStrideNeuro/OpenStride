@@ -241,7 +241,7 @@ def run_record(command):
 
             return out
 
-        # ===== 右侧状态栏 =====
+        # ===== Right-side status bar =====
         status_text = fig.text(
             0.98,
             0.9,

@@ -20,7 +20,7 @@ end
 
 % === Launch main.py in background on macOS ===
 script_dir = fileparts(py_path);
-cmd = ['cd "', script_dir, '" && nohup python3 main.py >> "', log_filename, '" 2>&1 &'];
+cmd = ['cd "', script_dir, '" && nohup "', pythonExePath(app), '" main.py >> "', log_filename, '" 2>&1 &'];
 
 status = system(cmd);
 if status ~= 0
