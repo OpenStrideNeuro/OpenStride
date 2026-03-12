@@ -1,25 +1,27 @@
-# OpenStride
+# OpenStride 
 
-Welcome to **OpenStride**, an open-source platform that integrates both **hardware and software** for rodent behaviour recording and analysis using a force-plate actometer system.
+Welcome to **OpenStride**, an open-source platform that integrates both **hardware and software** for rodent behaviour recording and analysis using a force-plate actometer system. Please read the following to ensure smooth installation of OpenStride, otherwise problems may ensue. 
 
-OpenStride is designed to provide a **low-cost, accessible, and reproducible** solution for laboratories studying locomotion and motor behaviour.
+OpenStride is designed to provide a **low-cost, accessible, and reproducible** solution for laboratories studying locomotion and motor behaviour. OpenStride has been created by the Anderson Group within the School of Medical Sciences, The University of Sydney. For further technical detail please refer to the publication:
 
+Yang et al. (2025). *OpenStride: an inexpensive, open-source force plate actometry system for quantification of rodent motor activity and behaviour.* bioRxiv. https://doi.org/10.64898/2025.12.17.695041
+ 
 ---
 
 ## Introduction
 
-OpenStride consists of two main components:
+This repository contains the necessary files for the OpenStride system, consisting of two main folders:
 
-- **Hardware system** – used for acquiring force-plate sensor data  
-- **Software tools** – used for **data acquisition and analysis**
+- **Hardware** – contains the STL and SVG files, required for 3D printing and laser-cutting, as well as the Hardware Assembly Guide.
+- **Software** – contains the downloadable program files for Windows and MacOS, as well as the Installation Guide for the respective operating systems.
 
-Detailed instructions and resources for each component are provided below.
+Further information about each folder is below.
 
 ---
 
 ## Hardware
 
-The OpenStride hardware platform is used to **collect behavioural data**.
+This folder contains the STL and SVG files for creating the platform that will **collect behavioural data**. Hardware Assembly Guide contains a walkthrough for the fabrication and assembly of the OpenStride system.
 
 All assembly instructions, required files, and hardware documentation can be found here:
 
@@ -28,18 +30,24 @@ All assembly instructions, required files, and hardware documentation can be fou
 This section includes:
 
 - 3D printing files
-- laser cutting files
-- electronic components list
-- assembly instructions
+- Laser cutting files
+- Electronic components list
+- Assembly instructions
+
+The Hardware Assembly Guide includes:
+
+- Overview
+- Bill of Materials
+- 3D Printing Guide
+- Laser Cutting Guide
+- OpenStride Assembly
+- Troubleshooting 
 
 ---
 
 ## Software
 
-The OpenStride software is used for:
-
-- **recording data**
-- **processing and analysing behavioural data**
+This folder contains operating system dependent downloads, for MacOS and Windows. The programs within these folders require careful installation of various programs, ensure that you read through the Software Installation Guide. The OpenStride Software will be required for **recording data**, as well as the **processing of and analysing behavioural data**.
 
 Separate versions are provided for different operating systems:
 
@@ -50,7 +58,7 @@ Separate versions are provided for different operating systems:
 
 ## Installation
 
-To ensure all dependencies are installed (using a virtual environment is recommended), run:
+To ensure all dependencies are installed as the correct package version, run:
 
 ```bash
 pip install -r requirements.txt
