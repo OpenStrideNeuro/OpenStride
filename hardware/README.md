@@ -237,7 +237,7 @@ Your OpenStride hardware is now fully assembled. You should have:
 - ✅ Electronics chamber lid closed
 - ✅ Workplate placed on top
 
-You are now ready to connect the hardware to your computer and proceed with software setup. See the **[Windows Installation Guide](#)** or **[macOS Installation Guide](#)** for next steps.
+You are now ready to connect the hardware to your computer and proceed with software setup. See the **[Windows Installation Guide](https://github.com/cander49/OpenStride/tree/main/software/windows)** or **[macOS Installation Guide](https://github.com/cander49/OpenStride/tree/main/software/mac/OpenStride%20-%20Mac)** for next steps.
 
 ---
 
