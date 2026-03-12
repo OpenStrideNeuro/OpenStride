@@ -1,6 +1,6 @@
 # OpenStride 
 
-Welcome to **OpenStride**, an open-source platform that integrates both **hardware and software** for rodent behaviour recording and analysis using a force-plate actometer system. Please read the following to ensure smooth installation of OpenStride, otherwise problems may ensue. 
+Welcome to **OpenStride**, an open-source platform that integrates both **hardware and software** for rodent behaviour recording and analysis using a force-plate actometer system. **Please read the following to ensure smooth installation of OpenStride, otherwise problems may ensue**. 
 
 OpenStride is designed to provide a **low-cost, accessible, and reproducible** solution for laboratories studying locomotion and motor behaviour. OpenStride has been created by the Anderson Group within the School of Medical Sciences, The University of Sydney. For further technical detail please refer to the publication:
 
@@ -53,6 +53,15 @@ Separate versions are provided for different operating systems:
 
 - 🪟 **[Windows Version](https://github.com/cander49/OpenStride/tree/main/software/windows)**
 - 🍎 **[macOS Version](https://github.com/cander49/OpenStride/tree/main/software/mac/OpenStride%20-%20Mac)**
+
+This section includes lists and guides for software: 
+
+- Installation list of external software
+- Python
+- Python Packages
+- Phidget22
+- MATLAB
+- MATLAB Toolboxes
 
 ---
 
