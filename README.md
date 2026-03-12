@@ -25,7 +25,7 @@ This folder contains the STL and SVG files for creating the platform that will *
 
 All assembly instructions, required files, and hardware documentation can be found here:
 
-➡️ **[Hardware Assembly Guide](LINK)**
+➡️ **[Hardware Assembly Guide]((https://github.com/cander49/OpenStride/tree/main/hardware))**
 
 This section includes:
 
@@ -51,8 +51,8 @@ This folder contains operating system dependent downloads, for MacOS and Windows
 
 Separate versions are provided for different operating systems:
 
-- 🪟 **[Windows Version](WINDOWS_LINK_HERE)**
-- 🍎 **[macOS Version](MAC_LINK_HERE)**
+- 🪟 **[Windows Version](https://github.com/cander49/OpenStride/tree/main/software/windows)**
+- 🍎 **[macOS Version](https://github.com/cander49/OpenStride/tree/main/software/mac/OpenStride%20-%20Mac)**
 
 ---
 
