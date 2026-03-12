@@ -252,8 +252,8 @@ You are now ready to connect the hardware to your computer and proceed with soft
 | Acrylic joint is weak or failed | Reapply cyanoacrylate glue and allow full cure time before handling |
 | DAQ card not detected by computer | Check the USB connection and confirm Phidget22 drivers are installed |
 
-> 💬 If you continue to experience issues, please open an issue via **[Reporting Issues](#)** or reach out through **[Getting Assistance](#)**.
-
+> 💬 If you continue to experience issues, please get in contact with the OpenStride team.
+ 
 ---
 
 *OpenStride Hardware Assembly Guide · Last updated 2026*
