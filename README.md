@@ -56,7 +56,7 @@ Separate versions are provided for different operating systems:
 
 This section includes an installation list of external software, packages and toolboxes: 
 
-- Python
+- Python 3.10+
 - Python Packages
 - Phidget22
 - MATLAB
