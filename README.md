@@ -65,7 +65,7 @@ This section includes an installation list of external software, packages and to
 To ensure all dependencies are installed as the correct package version, run in the terminal in the same directory as OpenStride:
 
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 Further to this, if any dependeny issues are occurring, consider using a virtual environment to isolate project dependencies, run in the terminal in the same directory as OpenStride:
