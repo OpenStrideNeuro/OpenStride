@@ -51,8 +51,8 @@ This folder contains operating system dependent downloads, for MacOS and Windows
 
 Separate versions are provided for different operating systems:
 
-- 🪟 **[Windows Version](https://github.com/cander49/OpenStride/tree/main/software/windows)**
-- 🍎 **[macOS Version](https://github.com/cander49/OpenStride/tree/main/software/mac/OpenStride%20-%20Mac)**
+- **[Windows Version](https://github.com/cander49/OpenStride/tree/main/software/windows)**
+- **[macOS Version](https://github.com/cander49/OpenStride/tree/main/software/mac/OpenStride%20-%20Mac)**
 
 This section includes an installation list of external software, packages and toolboxes: 
 
