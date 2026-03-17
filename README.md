@@ -196,7 +196,6 @@ Please ensure that each recording session uses a **unique file name**.
 
 ### Notes Field
 
-
 The **Note** field allows users to record experimental details.
 
 These notes will be saved in the **header section of the CSV file**.
@@ -317,7 +316,7 @@ Once inside the Analysis Mode, you can click **“Switch to Record”** at any t
 
 Click **“Import Data”** to open a file selection window.
 
-From this window, you can select the data files you wish to analyze.  
+From this window, you can select the data files you wish to analyse.  
 Multiple files can be selected at the same time.
 
 After importing the data, the files will appear in the **File List**.
@@ -332,10 +331,10 @@ The order of the files in the list determines the **analysis sequence**.
 
 This becomes important when analysing data from the **same animal across multiple sessions**.
 
-In future analysis steps, when clicking **“Start Analyze”**, users may choose to **combine all selected data files into a single analysis**.  
-In such cases, organizing the correct order ensures the combined dataset follows the intended sequence.
+In future analysis steps, when clicking **“Start Analysis”**, users may choose to **combine all selected data files into a single analysis**.  
+In such cases, organising the correct order ensures the combined dataset follows the intended sequence.
 
-The **Delete** function allows users to remove any unwanted data files from the list.
+The **Remove** function allows users to remove any unwanted data files from the list.
 
 This is useful if:
 
@@ -343,10 +342,7 @@ This is useful if:
 - The wrong dataset was selected
 - Certain files should not be included in the current analysis
 
-Removing unnecessary files helps keep the analysis workflow clean and organized.
-
-<img width="1790" height="1427" alt="image" src="https://github.com/user-attachments/assets/974d64fc-c22a-45df-b845-1f8b24560133" />
-<img width="1786" height="1420" alt="image" src="https://github.com/user-attachments/assets/b0a65dc4-5593-4447-bd7c-a5e5154f84e0" />
+Removing unnecessary files helps keep the analysis workflow clean and organised.
 
 ---
 
@@ -398,7 +394,7 @@ If no name is specified, the system will automatically generate a **unique folde
 
 Below are examples of the generated analysis outputs.
 
-The results include visualizations and numerical summaries for:
+The results include visualisations and numerical summaries for:
 
 1. **Distance / Speed**
 2. **Low Mobility Bouts**
