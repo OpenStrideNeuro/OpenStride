@@ -1,6 +1,6 @@
 # OpenStide
 
-**Note: the readme files for this github are currently under construction. All necessary files to construct and operate OpenStride are present, but the readme files will be updated in the immediate future. When readme edits are completed, this message will be removed. In the meantime, for any questions related to installation please email collin (dot) anderson (at) sydney (dot) edu (dot) au.**  \
+**Note: the readme files for this github are currently under construction. All necessary files to construct and operate OpenStride are present, but the readme files will be updated in the immediate future. When readme edits are completed, this message will be removed. In the meantime, for any questions related to installation please email collin.anderson@sydney.edu.au **  \
   \
   \
   \
@@ -116,18 +116,18 @@ Only after completing the above installation steps will the **data acquisition s
 
 ---
 
-### Switching Between Record and Analyze Modes
+### Switching Between Recording and Analysis Modes
 
 
 <img width="1795" height="1462" alt="OpenStride UI Overview" src="https://github.com/user-attachments/assets/73f9af83-982d-41e8-b64d-17a5e7d4ff94" />
 
 
-The button highlighted in red in the image above is **“Switch to Analyze”**.
+The button highlighted in red in the image above is **“Switch to Analysis”**.
 
 This button allows users to switch between:
 
 - **Recording Mode (default)**
-- **Analyze Mode**
+- **Analysis Mode**
 
 You can switch between these modes **at any time**.  
 All settings and text entries made in either mode will **remain saved unless the UI is closed**.
@@ -139,8 +139,8 @@ All settings and text entries made in either mode will **remain saved unless the
 
 Calibration is required under the following circumstances:
 
-- When using **a newly installed computer**
-- When **OpenStride software has been freshly installed**
+- When using OpenStride on **a newly installed computer**
+- When the **OpenStride software has been freshly installed**
 - When the **OpenStride hardware setup has been moved**
 - When using **a new force plate**
 - When using **a different experimental setup**
@@ -149,7 +149,8 @@ Calibration is required under the following circumstances:
 
 If the plate and setup **have not been moved or modified**, calibration **does not need to be performed before every recording session**.
 
-However, to ensure **maximum accuracy of trajectory data**, calibration is strongly recommended whenever any of the above changes occur.
+However, to ensure **maximum accuracy of trajectory data**, calibration is strongly recommended whenever any of the above changes occur. If commencing with calibration, ensure that no animal or object is placed on OpenStride. Further, ensure that the surface that OpenStride is ontop of is not disturbed during calibration.
+
 
 ---
 
@@ -227,11 +228,10 @@ Users can select the experimental animal:
 In the current version of OpenStride, this option is used **only for experimental metadata storage**.
 
 However, this setting may become important in future versions as additional analysis algorithms are implemented.  
-For example, certain behavioral analyses (such as grooming detection) may require **different processing methods for mice and rats**.
 
 ---
 
-### Acqisition Settings
+### Acquisition Settings
 
 Within **Recording Mode**, the **Acquisition Settings** panel contains options for controlling recording behavior.
 
@@ -251,11 +251,11 @@ Features include:
 
 ---
 
-#### 2. Dicard First (Delay Start)
+#### 2. Discard First (Delay Start)
 
 If researchers prefer to **leave the room after placing the animal in the enclosure**, this feature allows a delay before recording begins.
 
-This ensures that **human presence does not affect the animal's natural behavior**.
+This ensures that **experimenter presence does not affect the animal's natural behavior**.
 
 <img width="1788" height="1462" alt="image" src="https://github.com/user-attachments/assets/e002bec2-1a6e-4e4f-864a-f9aa83affed4" />
 
@@ -288,7 +288,7 @@ Users can select the desired frequency from the **dropdown menu** within the sup
 ### Start Recording
 
 
-After configuring all settings, click **“Start Recording”**.
+After configuring all settings place the animal onto the force-plate and click **“Start Recording”**.
 
 <img width="1788" height="1462" alt="image" src="https://github.com/user-attachments/assets/96e40408-9dd3-49a2-bdd3-0c92c410332a" />
 
@@ -300,11 +300,11 @@ Once recording begins:
 - The chart updates **in real time** as the animal moves
 
 ---
-### Analyze Session
+### Analysis Mode
 
-To enter the **Analyze Session**, click the **“Switch to Analyze”** button located at the top of the UI.
+To enter the **Analysis Mode**, click the **“Switch to Analysis”** button located at the top of the UI.
 
-Once inside the Analyze Session, you can click **“Switch to Record”** at any time to return to **Recording Mode**.
+Once inside the Analysis Mode, you can click **“Switch to Record”** at any time to return to **Recording Mode**.
 
 <img width="1790" height="1427" alt="image" src="https://github.com/user-attachments/assets/72937f15-680c-4fe9-8bf9-7bae810252c7" />
 
@@ -322,16 +322,15 @@ Multiple files can be selected at the same time.
 
 After importing the data, the files will appear in the **File List**.
 
-<img width="1790" height="1427" alt="image" src="https://github.com/user-attachments/assets/974d64fc-c22a-45df-b845-1f8b24560133" />
-
+<img width="1786" height="1420" alt="image" src="https://github.com/user-attachments/assets/b0a65dc4-5593-4447-bd7c-a5e5154f84e0" />
 
 ---
 
-### Organizing the Analysis Order
+### Organising the Analysis Order
 
 The order of the files in the list determines the **analysis sequence**.
 
-This becomes important when analyzing data from the **same animal across multiple sessions**.
+This becomes important when analysing data from the **same animal across multiple sessions**.
 
 In future analysis steps, when clicking **“Start Analyze”**, users may choose to **combine all selected data files into a single analysis**.  
 In such cases, organizing the correct order ensures the combined dataset follows the intended sequence.
@@ -346,6 +345,7 @@ This is useful if:
 
 Removing unnecessary files helps keep the analysis workflow clean and organized.
 
+<img width="1790" height="1427" alt="image" src="https://github.com/user-attachments/assets/974d64fc-c22a-45df-b845-1f8b24560133" />
 <img width="1786" height="1420" alt="image" src="https://github.com/user-attachments/assets/b0a65dc4-5593-4447-bd7c-a5e5154f84e0" />
 
 ---
@@ -354,13 +354,10 @@ Removing unnecessary files helps keep the analysis workflow clean and organized.
 
 Currently, the software includes four analysis methods:
 
-1. **Distance Traveled**
-2. **Low Mobility**
+1. **Distance / Speed**
+2. **Low Mobility Bouts**
 3. **Tremor**
-4. **Atixia**
-
-<img width="1786" height="1420" alt="image" src="https://github.com/user-attachments/assets/5bb7c377-987d-4be0-98ee-0573019a2d84" />
-
+4. **Ataxia**
 
 Future versions may include additional analysis modules.
 
@@ -403,10 +400,10 @@ Below are examples of the generated analysis outputs.
 
 The results include visualizations and numerical summaries for:
 
-1. **Distance Traveled**
-2. **Low Mobility**
+1. **Distance / Speed**
+2. **Low Mobility Bouts**
 3. **Tremor**
-4. **Atixia**
+4. **Ataxia**
 
 All generated figures, tables, and result files will be automatically saved in the **selected output directory**.
 
@@ -416,7 +413,7 @@ All generated figures, tables, and result files will be automatically saved in t
 
 Please note that the data used in this demonstration is **not derived from real animal experiments**.
 
-Instead, the data was generated by **moving a finger across the Force Plate Stabilizer** to simulate movement signals.
+Instead, the data was generated by **moving a finger across the force-plate** to simulate movement signals.
 
 As a result, some outputs may appear **inaccurate or inconsistent**.
 
