@@ -80,7 +80,7 @@ To ensure all dependencies are installed as the correct package version, run in 
 pip3 install -r requirements.txt
 ```
 
-Further to this, if any dependeny issues are occurring, consider using a virtual environment to isolate project dependencies, run in the terminal in the same directory as OpenStride:
+Further to this, if any dependency issues are occurring, consider using a virtual environment to isolate project dependencies, run in the terminal in the same directory as OpenStride:
 
 ```bash
 python3 -m venv .venv # creating a virtual environment
