@@ -1,5 +1,16 @@
 # OpenStride
 
+**Note: the readme files for this github are currently under construction. All necessary files to construct and operate OpenStride are present, but the readme files will be updated in the immediate future. When readme edits are completed, this message will be removed. In the meantime, for any questions related to installation please email collin.anderson@sydney.edu.au **  \
+  \
+  \
+  \
+  \
+  \
+  \
+  \
+  \
+  \
+  \
 Welcome to **OpenStride**, an open-source platform that integrates both **hardware and software** for rodent behaviour recording and analysis using a force-plate actometer system. **Please read the following to ensure smooth installation of OpenStride; otherwise, problems may ensue**. 
 
 OpenStride is designed to provide a **low-cost, accessible, and reproducible** solution for laboratories studying locomotor and other behaviours. OpenStride was created by Collin Anderson's Laboratory in the School of Medical Sciences, The University of Sydney Faculty of Medicine and Health. For further technical detail please refer to the publication:
@@ -53,7 +64,7 @@ This folder contains operating system dependent downloads, for MacOS and Windows
 Separate versions are provided for different operating systems, with an installation guide on each page:
 
 - **[Windows Version](https://github.com/cander49/OpenStride/tree/main/software/windows)**
-- **[macOS Version](https://github.com/cander49/OpenStride/tree/main/software/mac)**
+- **[macOS Version](https://github.com/cander49/OpenStride/tree/main/software/mac/OpenStride%20-%20Mac)**
 
 This section includes an installation list of external software, packages and toolboxes: 
 
