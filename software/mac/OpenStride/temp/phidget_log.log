@@ -1,0 +1,16 @@
+[2026-03-12 17:48:59] [INFO] Deleted old calibration file: /Users/jackquinlan/Documents/OpenStride/software/mac/OpenStride/temp/phidget_calibration.json
+[2026-03-12 17:48:59] [INFO] Calibration started.
+[2026-03-12 17:48:59] [INFO] Initializing PhidgetBridge 1046...
+[2026-03-12 17:49:00] [INFO] Channel 0 connected successfully.
+[2026-03-12 17:49:00] [INFO] Channel 1 connected successfully.
+[2026-03-12 17:49:00] [INFO] Channel 2 connected successfully.
+[2026-03-12 17:49:01] [INFO] Channel 3 connected successfully.
+[2026-03-12 17:49:02] [INFO] Starting data collection...
+[2026-03-12 17:49:32] [INFO] Data collection completed.
+[2026-03-12 17:49:32] [INFO] Sensor 0 average: -1.9977457351948053e-05
+[2026-03-12 17:49:32] [INFO] Sensor 1 average: -9.259650214285714e-06
+[2026-03-12 17:49:32] [INFO] Sensor 2 average: 0.00011771951572564935
+[2026-03-12 17:49:32] [INFO] Sensor 3 average: 6.874039673214285e-05
+[2026-03-12 17:49:32] [INFO] Offsets computed: [-1.9977457351948053e-05, -9.259650214285714e-06, 0.00011771951572564935, 6.874039673214285e-05]
+[2026-03-12 17:49:32] [INFO] Calibration saved to /Users/jackquinlan/Documents/OpenStride/software/mac/OpenStride/temp/phidget_calibration.json
+[2026-03-12 17:49:32] [INFO] Phidget calibration completed.

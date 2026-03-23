@@ -4,7 +4,7 @@ import sys
 # ── Re-exec with the venv Python if MATLAB launched us with the system python3.
 # os.execv replaces the current process image (same PID / nohup context) so
 # MATLAB's launch command does not need to change.
-# main.py is at: <repo>/software/mac/OpenStride - Mac/phidget/main.py
+# main.py is at: <repo>/software/mac/OpenStride/phidget/main.py
 # venv is at:    <repo>/.venv/  →  4 levels up from phidget/
 _here = os.path.dirname(os.path.abspath(__file__))
 _venv_python = os.path.normpath(

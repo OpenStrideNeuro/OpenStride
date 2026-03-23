@@ -215,7 +215,7 @@ Connect each sensor to its corresponding **Port** on the PhidgetBridge, in the o
 Refer to the diagram below for the exact corner layout and port assignment:
 
 
-![Cable connection diagram — PhidgetBridge port-to-corner mapping](![1a5f50f95c85a5741c840d64c8c64087](https://github.com/user-attachments/assets/54cf5460-5c49-4265-9147-a17924ef8a45)
+![Cable connection diagram — PhidgetBridge port-to-corner mapping](https://github.com/user-attachments/assets/54cf5460-5c49-4265-9147-a17924ef8a45)
 
 ---
 
@@ -238,7 +238,7 @@ Your OpenStride hardware is now fully assembled. You should have:
 - ✅ Electronics chamber lid closed
 - ✅ Workplate placed on top
 
-You are now ready to connect the hardware to your computer and proceed with software setup. See the **[Windows Installation Guide](https://github.com/cander49/OpenStride/tree/main/software/windows)** or **[macOS Installation Guide](https://github.com/cander49/OpenStride/tree/main/software/mac/OpenStride%20-%20Mac)** for next steps.
+You are now ready to connect the hardware to your computer and proceed with software setup. See the **[Windows Installation Guide](https://github.com/cander49/OpenStride/tree/main/software/windows)** or **[macOS Installation Guide](https://github.com/cander49/OpenStride/tree/main/software/mac)** for next steps.
 
 ---
 
