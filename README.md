@@ -16,6 +16,7 @@ Welcome to **OpenStride**, an open-source platform that integrates both **hardwa
 OpenStride is designed to provide a **low-cost, accessible, and reproducible** solution for laboratories studying locomotor and other behaviours. OpenStride was created by Collin Anderson's Laboratory in the School of Medical Sciences, The University of Sydney Faculty of Medicine and Health. For further technical detail please refer to the publication:
 
 Yang et al. (2025). *OpenStride: an inexpensive, open-source force plate actometry system for quantification of rodent motor activity and behaviour.* bioRxiv. https://doi.org/10.64898/2025.12.17.695041
+**Manuscript has been accepted for publication by Scientific Reports, and link will be updated when published.**
  
 ---
 
