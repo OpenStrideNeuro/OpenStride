@@ -60,7 +60,7 @@ The Hardware Assembly Guide includes:
 
 This folder contains operating system dependent downloads, for MacOS and Windows. The programs within these folders require careful installation of various programs, ensure that you read through the Software Installation Guide. The OpenStride Software will be required for **recording data**, as well as the **processing of and analysing behavioural data**.
 
-Separate versions are provided for different operating systems:
+Separate versions are provided for different operating systems, with an installation guide on each page:
 
 - **[Windows Version](https://github.com/cander49/OpenStride/tree/main/software/windows)**
 - **[macOS Version](https://github.com/cander49/OpenStride/tree/main/software/mac/OpenStride%20-%20Mac)**
