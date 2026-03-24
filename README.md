@@ -1,7 +1,6 @@
 # OpenStride
 
-<img width="2130" height="1346" alt="OpenStride" src="https://github.com/user-attachments/assets/b32b1c9a-2b15-4fda-b2b2-499190f9939b" />
-
+<img width="2130" height="1346" alt="OpenStride_white" src="https://github.com/user-attachments/assets/331e0ce7-d89c-4482-bd18-49f91e2855b5" />
 
 **Note: the readme files for this github are currently under construction. All necessary files to construct and operate OpenStride are present, but the readme files will be updated in the immediate future. When readme edits are completed, this message will be removed. In the meantime, for any questions related to installation please email collin.anderson@sydney.edu.au **  \
   \
