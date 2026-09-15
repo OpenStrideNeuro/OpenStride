@@ -26,8 +26,8 @@ This guide walks you through fabricating and assembling the OpenStride hardware,
 | | Plate holders (×4) | PLA, 40–60% infill | [STL files](https://github.com/cander49/OpenStride/blob/main/hardware/3d%20files/plate%20holder.stl) |
 | | Base plate (×1) | PLA, 40–60% infill | [STL files](https://github.com/cander49/OpenStride/blob/main/hardware/3d%20files/baseplate.zip) |
 | | Electronics chamber lid (×1) | PLA, 40–60% infill | [STL files](https://github.com/cander49/OpenStride/blob/main/hardware/3d%20files/lid.stl)|
-| **Laser-cut parts** | Acrylic enclosure Part A (×4) | 5 mm clear acrylic, 35 × 45 cm | [SVG file](https://github.com/cander49/OpenStride/blob/main/hardware/laser%20cut%20files/Acrylic%20enclosure%20Part%20A.svg) |
-| | Acrylic enclosure Part B (×4) | 5 mm clear acrylic, 35 × 45 cm | [SVG file](https://github.com/cander49/OpenStride/blob/main/hardware/laser%20cut%20files/Acrylic%20enclosure%20fillet%20Part%20B.svg) |
+| **Laser-cut parts** | Acrylic enclosure Part A (×4) | 3 mm clear acrylic, 35 × 45 cm | [SVG file](https://github.com/cander49/OpenStride/blob/main/hardware/laser%20cut%20files/Acrylic%20enclosure%20Part%20A.svg) |
+| | Acrylic enclosure Part B (×4) | 3 mm clear acrylic, 35 × 45 cm | [SVG file](https://github.com/cander49/OpenStride/blob/main/hardware/laser%20cut%20files/Acrylic%20enclosure%20fillet%20Part%20B.svg) |
 | **Ballast** | Concrete ballast | 35 × 35 × 5 cm | — |
 | **Fasteners** | M3.5 flat-head screws (×8) | 316/316L stainless steel, 8 mm | — |
 | | M3.5 flat-head screws (×8) | 316/316L stainless steel, 25 mm | — |
