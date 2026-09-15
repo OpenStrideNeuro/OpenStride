@@ -129,7 +129,7 @@ Python packages are libraries that extend Python's functionality. OpenStride lis
 Open **Command Prompt** and navigate to where you downloaded OpenStride. Replace the path below with your actual folder location:
 
 ```bash
-cd C:\Users\YourName\Downloads\OpenStride
+cd /d "C:\Users\YourName\Downloads\OpenStride"
 ```
 
 > 💡 **Tip:** In File Explorer, open the OpenStride folder and copy the path from the address bar at the top.
